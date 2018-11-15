@@ -1,0 +1,480 @@
+/*==================================================
+	PAGE ABOUT REWORKED
+==================================================*/
+
+/* GENERAL
+---------------------------------------------------- */	
+
+.site--main {
+	padding-top: 0;
+}
+.page-section {
+	padding: 30px 0;
+}
+
+
+
+.section-team-grid .section-wrap::before,
+.section-team-grid .section-wrap::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: none;
+}
+
+h1.section-title {
+	font-size: 30px;
+	font-weight: 400;
+	color: #3d5f9b;
+	text-transform: none;
+}
+h1.section-title > strong {
+	font-weight: 700;
+	color: inherit;
+}
+
+/* TAGLINE
+---------------------------------------------------- */	
+/*#employess-tagline {
+	margin-top: -10px;
+}*/
+.section-tagline {
+	background-color: #3d5f9b;
+	padding: 25px 0;
+}
+
+.section-tagline .section-title {
+	font-size: 25px;
+	color: #FFF;
+	margin-bottom: 0;
+}
+.section-tagline .section-title > .divider {
+	margin: 0 15px;
+}
+
+
+/* MAP BANNER
+---------------------------------------------------- */	
+.section-banner {
+	height: 417px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* BOXES
+---------------------------------------------------- */	
+#employess-boxes {
+	/*padding: 0;*/
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,eaeaea+0,f7f7f7+100 */
+	background: rgb(30,87,153); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(234,234,234,1) 0%, rgba(247,247,247,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(234,234,234,1) 0%,rgba(247,247,247,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(234,234,234,1) 0%,rgba(247,247,247,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-9 */
+}
+
+#employess-boxes .row-boxes:first-child {
+	margin-top: -95px;
+}
+
+.row-boxes .span-text {
+	background-color: #FFF;
+	padding: 42px 38px;
+	position: relative;
+}
+.section-boxes .row-boxes .span-text .triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent #ffffff;
+
+	position: absolute;
+	right: -10px;
+	top: 16px;
+	bottom: 39px;
+	margin: auto;
+}
+.section-boxes .row-boxes:last-child .span-text .triangle {
+	border-width: 10px 10px 10px 0px;
+	border-color: transparent #ffffff transparent transparent;
+	right: auto;
+	left: -10px;
+	top: 39px;
+	bottom: 16px;
+}
+.section-boxes .row-boxes .span-text img {
+	margin-bottom: 16px;
+}
+.row-boxes p {
+	font-size: 16px;
+	color: #7c7c7c;
+	line-height: 1.38;
+	margin-bottom: 0;
+	max-width: 90%;
+}
+.section-boxes .row-boxes .span-image .wrap {
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	/*min-height: 200px;*/
+}
+.section-boxes .row-boxes .span-image img {
+	display: none;
+}
+.section-boxes .row-boxes:first-child .span-text {
+	-webkit-box-shadow: -5px -5px 10px 0 rgba(0,0,0,0.1);
+	box-shadow: -5px -5px 10px 0 rgba(0,0,0,0.1);
+}
+.section-boxes .row-boxes:first-child .span-image {
+	padding-top: 16px;
+}
+.section-boxes .row-boxes:last-child .span-text {
+	float: right;
+	margin-top: -39px;
+	-webkit-box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.1);
+	box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.1);
+}
+.section-boxes .row-boxes:last-child .span-image {
+	padding-bottom: 16px;
+}
+
+
+
+
+
+
+
+/* MEET THE TEAM
+---------------------------------------------------- */	
+/*.section-team-grid {
+	padding: 50px 0;
+}*/
+/*.section-team-grid + .section-team-grid {
+	padding-top: 0;
+}*/
+.section-team-grid .container {
+	margin-bottom: -30px;
+}
+.section-team-grid .section-title {
+	margin-bottom: 33px;
+}
+.section-team-grid .section-wrap {
+/*	display: table;*/
+	margin: 0 -15px;
+}
+.section-team-grid .team-grid {
+	width: 25%;
+	padding: 0 15px 30px;
+	float: left;
+	margin-bottom: 0;
+}
+.section-team-grid .team-grid:nth-child(4n+1){
+	clear: left;
+}
+.section-team-grid .team-grid .team-grid-wrap {
+	-webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.15);
+	box-shadow: 0 0 15px 0 rgba(0,0,0,0.15);
+
+	-webkit-transition: all 300ms ease-in 0s;
+	-moz-transition: all 300ms ease-in 0s;
+	-ms-transition: all 300ms ease-in 0s;
+	-o-transition: all 300ms ease-in 0s;
+	transition: all 300ms ease-in 0s;
+}
+.section-team-grid .team-grid figure {
+	margin-bottom: 0;
+	position: relative;
+}
+
+.section-team-grid .team-grid .meta {
+	background-color: #FFF;
+	padding: 25px;
+}
+.section-team-grid .team-grid .meta .title {
+	font-size: 18px;
+	font-weight: 700;
+	color: #3d5f9b;
+}
+.section-team-grid .team-grid .meta .description {
+	font-size: 14px;
+	color: #000;
+}
+.section-team-grid .team-grid .meta hr {
+	background-color: #3d5f9b;
+	border: 0;
+	margin: 10px auto 10px 0;
+	height: 2px;
+	width: 75px;
+}
+.section-team-grid .team-grid .meta a {
+	font-size: 16px;
+	line-height: 1.4;
+	color: #3d5f9b;
+	display: block;
+	
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+
+	-webkit-transition: all 300ms ease-in 0s;
+	-moz-transition: all 300ms ease-in 0s;
+	-ms-transition: all 300ms ease-in 0s;
+	-o-transition: all 300ms ease-in 0s;
+	transition: all 300ms ease-in 0s;
+}
+.section-team-grid .team-grid .meta a:hover {
+	text-decoration: underline;
+}
+
+
+/* SIMPLE BOXES
+---------------------------------------------------- */	
+
+/*#internationall-teams {
+	padding: 0 0 70px;
+}*/
+
+.section-simple-boxes .section-title {
+	margin-bottom: 33px;
+}
+
+.section-simple-boxes .row-boxes {
+	background-color: #FFF;
+
+	box-shadow: 0 0 15px 0 rgba(0,0,0,0.15);
+}
+.section-simple-boxes .span6:first-child {
+	position: relative;
+	z-index: 5;
+
+	-webkit-box-shadow: 25px 0 15px -10px rgba(0,0,0,0.04);
+	box-shadow: 25px 0 15px -10px rgba(0,0,0,0.04);
+}
+.section-simple-boxes .span-text p:last-child {
+	margin-bottom: 0;
+}
+
+
+
+
+/* ----------------------------------------------------
+	RESPONSIVE STYLES
+---------------------------------------------------- */	
+
+@media screen and (max-width: 1280px){
+
+	/* GENERAL
+	----------------------------------------- */	
+	.section-banner {
+		height: 310px;
+	}
+
+}
+
+
+@media screen and (min-width: 1025px) {
+	
+	/* TEAM GRID
+	----------------------------------------- */	
+	.section-team-grid .team-grid figure .image-overlay {
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 50% auto;
+		background-color: rgba(0,0,0,0.55);
+		opacity: 0;
+
+		-webkit-transition: all 300ms ease-in 0s;
+		-moz-transition: all 300ms ease-in 0s;
+		-ms-transition: all 300ms ease-in 0s;
+		-o-transition: all 300ms ease-in 0s;
+		transition: all 300ms ease-in 0s;
+	}
+	.section-team-grid .team-grid .team-grid-wrap:hover {
+		box-shadow: 0 0 25px 0 rgba(0,0,0,0.25);
+	}
+	.section-team-grid .team-grid .team-grid-wrap:hover figure .image-overlay {
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 1024px){
+
+	/* TEAM GRID
+	----------------------------------------- */	
+	.section-team-grid .team-grid {
+		width: 33.3334%;
+	}
+	.section-team-grid .team-grid:nth-child(4n+1){
+		clear: none;
+	}
+	.section-team-grid .team-grid:nth-child(3n+1){
+		clear: left;
+	}
+
+	/* BOXES
+	----------------------------------------- */	
+	.row-boxes .span6 {
+		width: 100%;
+	}
+	.section-boxes .row-boxes:first-child .span-image,
+	.section-boxes .row-boxes:last-child .span-image {
+		padding: 0;
+	}
+	.section-boxes .row-boxes:last-child .span-text {
+		margin: 0;
+		float: none;
+	}
+	.section-boxes .row-boxes:last-child .span-text,
+	.section-boxes .row-boxes:first-child .span-text {
+		box-shadow: none;
+	}
+	.section-boxes .section-boxes .row-boxes {
+		-webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.15);
+		box-shadow: 0 0 15px 0 rgba(0,0,0,0.15);
+	}
+	.section-boxes .row-boxes .span-text .triangle,
+	.section-boxes .row-boxes:last-child .span-text .triangle {
+		bottom: -10px;
+		left: 0;
+		right: 0;
+		top: auto;
+
+		border-color: #ffffff transparent transparent transparent;
+		border-width: 10px 10px 0 10px;
+	}
+
+	.section-boxes .row-boxes .span-image img {
+		display: block;
+		width: 100%;
+	}
+
+	.row-boxes .span-text {
+		padding: 30px 34px;
+	}
+
+
+	/* SIMPLE BOXES
+	----------------------------------------- */
+	.section-simple-boxes .span6:first-child {
+		-webkit-box-shadow: 0 25px 15px -10px rgba(0, 0, 0, 0.04);
+		box-shadow: 0 25px 15px -10px rgba(0, 0, 0, 0.04);
+	}
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+	/* TEAM GRID
+	----------------------------------------- */	
+	.section-team-grid .team-grid {
+		width: 50%;
+	}
+	.section-team-grid .team-grid:nth-child(3n+1){
+		clear: none;
+	}
+	.section-team-grid .team-grid:nth-child(2n+1){
+		clear: left;
+	}
+
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+
+	.page-section {
+		padding: 25px 0;
+	}
+
+	h1.section-title {
+		font-size: 24px;
+	}
+	.section-simple-boxes .section-title,
+	.section-team-grid .section-title {
+		margin-bottom: 25px;
+	}
+
+
+
+	#employess-boxes .row-boxes:first-child {
+		margin-top: -75px;
+	}
+	.row-boxes .span-text {
+		padding: 24px 28px;
+	}
+	.row-boxes .span-text p {
+		font-size: 15px;
+		max-width: 100%;
+	}
+
+	.section-banner {
+		height: 250px;
+	}
+
+
+	.section-team-grid .container {
+		margin-bottom: -25px;
+	}
+	.section-team-grid .team-grid {
+		padding: 0;
+		margin-bottom: 25px;
+		width: 100%;
+		float: none!important;
+		clear: none!important;
+	}
+	.section-team-grid .section-wrap {
+		margin: 0;
+	}
+
+}
+
+
+@media screen and (max-width: 480px){
+
+	.section-banner {
+		height: 180px;
+	}
+
+	.section-boxes .row-boxes .span-text img {
+		max-width: 187px;
+	}
+
+}
+
+@media screen and (max-width: 420px){
+
+	#internationall-teams {
+		padding-bottom: 20px;
+	}
+
+	.section-team-grid .team-grid .meta {
+		padding: 20px;
+	}
+
+	.row-boxes .span-text {
+		padding: 20px 24px;
+	}
+	.row-boxes .span-text p {
+		font-size: 14px;
+	}
+
+}
+
+
